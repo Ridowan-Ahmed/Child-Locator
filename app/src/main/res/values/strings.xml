@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ChildLocator</string>
+    <string name="child_map_title">Current Location</string>
+
+    <string name="parent_login_hint">Enter Your Mobile Number....</string>
+    <string name="child_name_hint">Enter Your Full Name</string>
+    <string name="child_login_hint">Enter Your Parent\'s Mobile Number....</string>
+    <string name="child_code_hint">Enter the Code Sent to Your Parent\'s Mobile</string>
+    <string name="mobile_number_hint">01XXXXXXXXX</string>
+
+    <string name="number_error">A mobile number must be 11 digit</string>
+    <string name="code_error">A code must be 6 digit</string>
+    <string name="name_error">Name can\'t be empty</string>
+    <string name="spinner_error">Country code missing</string>
+
+
+    <string name="sms">SEND SMS</string>
+    <string name="submit">Submit</string>
+
+    <string name="parent_login">PARENTS LOGIN</string>
+    <string name="child_login">CHILD LOGIN</string>
+
+    <string name="PREF_FILE">PREF_FILE_INFO</string>
+    <string name="CHILD_NAME">CHILD_NAME_INFO</string>
+    <string name="CHILD_GIVE_NUMBER">CHILD_GIVE_NUMBER_INFO</string>
+    <string name="PARENT_GIVE_NUMBER">PARENT_GIVE_NUMBER_INFO</string>
+
+    <string name="title_activity_child_map">Map</string>
+    <string name="title_activity_parent_map">Child Location</string>
+    <string name="location_hint">Click On the Name to the View Location of Your Child</string>
+    <string name="login_options">LOGIN OPTIONS</string>
+
+    <string-array name="country">
+        <item>+88</item>
+        <item>+39</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

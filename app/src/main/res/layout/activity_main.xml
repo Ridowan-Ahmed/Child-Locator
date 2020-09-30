@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    tools:context="com.ridowanahmed.childlocator.MainActivity">
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView_loginOptions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:text="@string/login_options"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:onClick="parentLoginBtn"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_parent" />
+
+        <ImageButton
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="childLoginBtn"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_child" />
+
+    </LinearLayout>
+
+</LinearLayout>
